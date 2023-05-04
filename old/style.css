@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=1380&t=st=1681402895~exp=1681403495~hmac=390a0fc60a059bff52ca7b76338edc86afc314d9a911c8a9ceaace3d9d503720');
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+}
+
+.central {
+    display: flex;
+    flex-direction: row;
+}
+
+.l-sidebar, .r-sidebar {
+ width: 30%;
+ margin: 10px;
+}
+
+.section {
+    background-color: white;
+}
+
+.row {
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.row p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer p {
+    border: thin solid black;
+}
+
+p {
+}
+
+.important {
+    background-color: red;
+    border: black solid
+}
+
+.important-blue {
+    background-color: blue;
+}
+
+#odstavek1 {
+    padding: 50px;
+    background-color: green;
+}
+
+.left-menu {
+    background-color: gray;
+}
